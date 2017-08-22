@@ -1,0 +1,28 @@
+CREATE TABLE public.user (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(256) NOT NULL);
+
+CREATE TABLE public.damndaily (
+    at TIMESTAMP NULL,
+    created TIMESTAMP NULL,
+    deleted TIMESTAMP NULL,
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    location VARCHAR(1024) NULL, name VARCHAR(512) NOT NULL);
+
+CREATE TABLE public.today (
+    at TIMESTAMP NULL,
+    damndaily_id INTEGER NOT NULL,
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    location VARCHAR(256) NULL);
+
+CREATE TABLE public.participation (
+    today_id INTEGER NOT NULL,
+    user_id INTEGER NOT NULL,
+    PRIMARY KEY (today_id, user_id));
+
+CREATE TABLE public.message (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    today_id INTEGER NOT NULL,
+    user_id INTEGER NOT NULL,
+    value VARCHAR(1024) NOT NULL);
+

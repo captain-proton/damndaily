@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-map xmlns="http://cayenne.apache.org/schema/9/modelMap"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://cayenne.apache.org/schema/9/modelMap http://cayenne.apache.org/schema/9/modelMap.xsd"
+	 project-version="9">
+	<property name="defaultPackage" value="de.hindenbug.damndaily"/>
+	<db-entity name="damndaily" schema="public">
+		<db-attribute name="at" type="TIMESTAMP" length="35"/>
+		<db-attribute name="created" type="TIMESTAMP" length="35"/>
+		<db-attribute name="deleted" type="TIMESTAMP" length="35"/>
+		<db-attribute name="id" type="INTEGER" isPrimaryKey="true" isGenerated="true" isMandatory="true" length="10"/>
+		<db-attribute name="location" type="VARCHAR" length="1024"/>
+		<db-attribute name="name" type="VARCHAR" isMandatory="true" length="512"/>
+	</db-entity>
+	<db-entity name="message" schema="public">
+		<db-attribute name="id" type="INTEGER" isPrimaryKey="true" isGenerated="true" isMandatory="true" length="10"/>
+		<db-attribute name="today_id" type="INTEGER" isMandatory="true" length="10"/>
+		<db-attribute name="user_id" type="INTEGER" isMandatory="true" length="10"/>
+		<db-attribute name="value" type="VARCHAR" isMandatory="true" length="1024"/>
+	</db-entity>
+	<db-entity name="participation" schema="public">
+		<db-attribute name="today_id" type="INTEGER" isPrimaryKey="true" isMandatory="true" length="10"/>
+		<db-attribute name="user_id" type="INTEGER" isPrimaryKey="true" isMandatory="true" length="10"/>
+	</db-entity>
+	<db-entity name="today" schema="public">
+		<db-attribute name="at" type="TIMESTAMP" length="35"/>
+		<db-attribute name="damndaily_id" type="INTEGER" isMandatory="true" length="10"/>
+		<db-attribute name="id" type="INTEGER" isPrimaryKey="true" isGenerated="true" isMandatory="true" length="10"/>
+		<db-attribute name="location" type="VARCHAR" length="256"/>
+	</db-entity>
+	<db-entity name="user" schema="public">
+		<db-attribute name="id" type="INTEGER" isPrimaryKey="true" isGenerated="true" isMandatory="true" length="10"/>
+		<db-attribute name="name" type="VARCHAR" isMandatory="true" length="256"/>
+	</db-entity>
+	<obj-entity name="Damndaily" className="de.hindenbug.damndaily.Damndaily" dbEntityName="damndaily">
+		<obj-attribute name="at" type="java.time.LocalDateTime" db-attribute-path="at"/>
+		<obj-attribute name="created" type="java.time.LocalDateTime" db-attribute-path="created"/>
+		<obj-attribute name="deleted" type="java.time.LocalDateTime" db-attribute-path="deleted"/>
+		<obj-attribute name="location" type="java.lang.String" db-attribute-path="location"/>
+		<obj-attribute name="name" type="java.lang.String" db-attribute-path="name"/>
+	</obj-entity>
+	<obj-entity name="Message" className="de.hindenbug.damndaily.Message" dbEntityName="message">
+		<obj-attribute name="value" type="java.lang.String" db-attribute-path="value"/>
+	</obj-entity>
+	<obj-entity name="Today" className="de.hindenbug.damndaily.Today" dbEntityName="today">
+		<obj-attribute name="at" type="java.time.LocalDateTime" db-attribute-path="at"/>
+		<obj-attribute name="location" type="java.lang.String" db-attribute-path="location"/>
+	</obj-entity>
+	<obj-entity name="User" className="de.hindenbug.damndaily.User" dbEntityName="user">
+		<obj-attribute name="name" type="java.lang.String" db-attribute-path="name"/>
+	</obj-entity>
+	<db-relationship name="todays" source="damndaily" target="today" toMany="true">
+		<db-attribute-pair source="id" target="damndaily_id"/>
+	</db-relationship>
+	<db-relationship name="today" source="message" target="today" toMany="false">
+		<db-attribute-pair source="today_id" target="id"/>
+	</db-relationship>
+	<db-relationship name="user" source="message" target="user" toMany="false">
+		<db-attribute-pair source="user_id" target="id"/>
+	</db-relationship>
+	<db-relationship name="today" source="participation" target="today" toMany="false">
+		<db-attribute-pair source="today_id" target="id"/>
+	</db-relationship>
+	<db-relationship name="user" source="participation" target="user" toMany="false">
+		<db-attribute-pair source="user_id" target="id"/>
+	</db-relationship>
+	<db-relationship name="damndaily" source="today" target="damndaily" toMany="false">
+		<db-attribute-pair source="damndaily_id" target="id"/>
+	</db-relationship>
+	<db-relationship name="messages" source="today" target="message" toMany="true">
+		<db-attribute-pair source="id" target="today_id"/>
+	</db-relationship>
+	<db-relationship name="participations" source="today" target="participation" toDependentPK="true" toMany="true">
+		<db-attribute-pair source="id" target="today_id"/>
+	</db-relationship>
+	<db-relationship name="messages" source="user" target="message" toMany="true">
+		<db-attribute-pair source="id" target="user_id"/>
+	</db-relationship>
+	<db-relationship name="participations" source="user" target="participation" toDependentPK="true" toMany="true">
+		<db-attribute-pair source="id" target="user_id"/>
+	</db-relationship>
+	<obj-relationship name="todays" source="Damndaily" target="Today" deleteRule="Deny" db-relationship-path="todays"/>
+	<obj-relationship name="today" source="Message" target="Today" deleteRule="Nullify" db-relationship-path="today"/>
+	<obj-relationship name="user" source="Message" target="User" deleteRule="Nullify" db-relationship-path="user"/>
+	<obj-relationship name="damndaily" source="Today" target="Damndaily" deleteRule="Nullify" db-relationship-path="damndaily"/>
+	<obj-relationship name="messages" source="Today" target="Message" deleteRule="Deny" db-relationship-path="messages"/>
+	<obj-relationship name="users" source="Today" target="User" db-relationship-path="participations.user"/>
+	<obj-relationship name="messages" source="User" target="Message" deleteRule="Deny" db-relationship-path="messages"/>
+	<obj-relationship name="todays" source="User" target="Today" db-relationship-path="participations.today"/>
+</data-map>
