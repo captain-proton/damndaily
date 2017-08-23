@@ -1,0 +1,1775 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"nu",
+				"num_pages\tstatement"
+			],
+			[
+				"load",
+				"load_scannable_pdf_pages\tfunction"
+			],
+			[
+				"un",
+				"undefined_permissions\tstatement"
+			],
+			[
+				"miss",
+				"missing_permissions\tstatement"
+			],
+			[
+				"add",
+				"add_all_missing\tfunction"
+			],
+			[
+				"remo",
+				"remove_all_inexistent\tfunction"
+			],
+			[
+				"re",
+				"remove_all_undefined\tfunction"
+			],
+			[
+				"user",
+				"userid"
+			],
+			[
+				"perm",
+				"permission_util\tstatement"
+			],
+			[
+				"use",
+				"userids\tstatement"
+			],
+			[
+				"all",
+				"all_user_ids\tparam"
+			],
+			[
+				"pa",
+				"params\tparam"
+			],
+			[
+				"c",
+				"c_db\tstatement"
+			],
+			[
+				"__get",
+				"__get_all_userids\tfunction"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"ec",
+				"except"
+			],
+			[
+				"update",
+				"update_query\tstatement"
+			],
+			[
+				"resou",
+				"resource_id\tforstmt"
+			],
+			[
+				"updat",
+				"update_query\tstatement"
+			],
+			[
+				"resource",
+				"resource_id\tforstmt"
+			],
+			[
+				"up",
+				"update_query\tstatement"
+			],
+			[
+				"sc",
+				"scannable_id\tstatement"
+			],
+			[
+				"sca",
+				"scannable"
+			],
+			[
+				"ch",
+				"chapter_id\tstatement"
+			],
+			[
+				"count",
+				"count_scannable_pdf_pages\tfunction"
+			],
+			[
+				"colle",
+				"collection_id\tparam"
+			],
+			[
+				"cou",
+				"count_pages\tfunction"
+			],
+			[
+				"coll",
+				"collection_id"
+			],
+			[
+				"scan",
+				"scannables"
+			],
+			[
+				"Pdf",
+				"PdfReadError\tclass"
+			],
+			[
+				"pdf",
+				"pdf_file\twithstmt"
+			],
+			[
+				"qu",
+				"quotechar\tparam"
+			],
+			[
+				"del",
+				"delimiter\tparam"
+			],
+			[
+				"write",
+				"write_scannable_log\tfunction"
+			],
+			[
+				"__bui",
+				"__build_collection_file_path\tfunction"
+			],
+			[
+				"st",
+				"storage_id\tparam"
+			],
+			[
+				"slo",
+				"slot_id\tstatement"
+			],
+			[
+				"stor",
+				"storage_id\tstatement"
+			],
+			[
+				"storage",
+				"storage_id"
+			],
+			[
+				"co",
+				"collection_file\tstatement"
+			],
+			[
+				"sto",
+				"storage_id"
+			],
+			[
+				"el",
+				"else\tkeyword"
+			],
+			[
+				"der",
+				"derivate_id\tparam"
+			],
+			[
+				"docu",
+				"document_id\tparam"
+			],
+			[
+				"do",
+				"doc_id\tstatement"
+			],
+			[
+				"get",
+				"get_document_derivate_ids\tfunction"
+			],
+			[
+				"slots",
+				"slots_tree\tstatement"
+			],
+			[
+				"E",
+				"ElementTree\tmodule"
+			],
+			[
+				"req",
+				"request_handler\tparam"
+			],
+			[
+				"sol",
+				"solr_server_url\tstatement"
+			],
+			[
+				"so",
+				"solr_server_url"
+			],
+			[
+				"date",
+				"datetime\tclass"
+			],
+			[
+				"from",
+				"from_transport\tfunction"
+			],
+			[
+				"sftp",
+				"sftp_password\tstatement"
+			],
+			[
+				"pass",
+				"password\tparam"
+			],
+			[
+				"file",
+				"files_dir"
+			],
+			[
+				"fil",
+				"file_path"
+			],
+			[
+				"jou",
+				"journal_article"
+			],
+			[
+				"mim",
+				"mimetype\tstatement"
+			],
+			[
+				"mime",
+				"mimetype"
+			],
+			[
+				"reou",
+				"resource_id\tstatement"
+			],
+			[
+				"open",
+				"open_connection\tfunction"
+			],
+			[
+				"exi",
+				"exist_ok\tparam"
+			],
+			[
+				"make",
+				"makedirs\tfunction"
+			],
+			[
+				"resourceid",
+				"resource_id"
+			],
+			[
+				"le",
+				"level\tparam"
+			],
+			[
+				"ftp",
+				"ftp_folder\tstatement"
+			],
+			[
+				"lo",
+				"logging\tmodule"
+			],
+			[
+				"is",
+				"isfile\tstatement"
+			],
+			[
+				"entry",
+				"entry_id\tparam"
+			],
+			[
+				"im",
+				"import_files\tfunction"
+			],
+			[
+				"quer",
+				"query_file"
+			],
+			[
+				"res",
+				"resource_id\tparam"
+			],
+			[
+				"con",
+				"conf\tmodule"
+			],
+			[
+				"mile",
+				"miless_file_base_dir\tstatement"
+			],
+			[
+				"document",
+				"document_id\tstatement"
+			],
+			[
+				"cre",
+				"create_collection_db\tfunction"
+			],
+			[
+				"dst",
+				"dst_dir\tstatement"
+			],
+			[
+				"old",
+				"old_file\tstatement"
+			],
+			[
+				"bas",
+				"file_base_dir\tstatement"
+			],
+			[
+				"crea",
+				"create_collection_db\tfunction"
+			],
+			[
+				"model",
+				"modelformset_factory\tfunction"
+			],
+			[
+				"BaseModel",
+				"BaseModelFormSet\tclass"
+			],
+			[
+				"Base",
+				"BaseFormSet"
+			],
+			[
+				"Imp",
+				"ImpFormSet\tstatement"
+			],
+			[
+				"form",
+				"formset\tparam"
+			],
+			[
+				"Edit",
+				"EditImpFormSet\tclass"
+			],
+			[
+				"Im",
+				"ImpFormSet\tstatement"
+			],
+			[
+				"U",
+				"URLField\tclass"
+			],
+			[
+				"mo",
+				"modelformset_factory\tfunction"
+			],
+			[
+				"formset",
+				"formset_factory\tfunction"
+			],
+			[
+				"edit",
+				"edit_id\tparam"
+			],
+			[
+				"ran",
+				"random_string\tfunction"
+			],
+			[
+				"boo",
+				"bootstrap_text_input\tfunction"
+			],
+			[
+				"Text",
+				"TextInput\tclass"
+			],
+			[
+				"max",
+				"max_length"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"min",
+				"min_length\tparam"
+			],
+			[
+				"Create",
+				"CreateView\tclass"
+			],
+			[
+				"imp",
+				"imptable\tmodule"
+			],
+			[
+				"Form",
+				"FormView\tclass"
+			],
+			[
+				"render",
+				"render_to_response\tfunction"
+			],
+			[
+				"ren",
+				"render_to_response\tfunction"
+			],
+			[
+				"HttpRe",
+				"HttpResponse\tclass"
+			],
+			[
+				"Me",
+				"Message\tclass"
+			],
+			[
+				"In",
+				"SmallIntegerField\tclass"
+			],
+			[
+				"Date",
+				"DateTimeField\tclass"
+			],
+			[
+				"Mess",
+				"MessageBoard\tclass"
+			],
+			[
+				"auto",
+				"auto_now_add\tparam"
+			],
+			[
+				"sl",
+				"sleep_time\tstatement"
+			],
+			[
+				"collec",
+				"collectionid"
+			],
+			[
+				"mail",
+				"mail_id"
+			],
+			[
+				"warn",
+				"warning\tstatement"
+			],
+			[
+				"str",
+				"strip\tfunction"
+			],
+			[
+				"in",
+				"info\tfunction"
+			],
+			[
+				"set",
+				"set_send\tfunction"
+			],
+			[
+				"te",
+				"text_body\tparam"
+			],
+			[
+				"send",
+				"send_mail"
+			],
+			[
+				"html",
+				"html_body\tstatement"
+			],
+			[
+				"text",
+				"text_body"
+			],
+			[
+				"calc",
+				"calculate_warning_date\tfunction"
+			],
+			[
+				"ma",
+				"mailid"
+			],
+			[
+				"wa",
+				"warning_date\tstatement"
+			],
+			[
+				"dat",
+				"datestring"
+			],
+			[
+				"num",
+				"num_days"
+			],
+			[
+				"base",
+				"basedate\tparam"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/nils/Entwicklung/Source/damndaily/damndaily/schema/sqlite.sql",
+			"settings":
+			{
+				"buffer_size": 822,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/nils/Entwicklung/Source/damndaily/damndaily/damndaily.py",
+			"settings":
+			{
+				"buffer_size": 1371,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/nils/Entwicklung/Source/damndaily/damndaily/blueprints/damndaily.py",
+			"settings":
+			{
+				"buffer_size": 832,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/nils/Entwicklung/Source/damndaily/requirements.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/python3build.sublime-build",
+					""
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"syn py",
+				"Set Syntax: Python"
+			],
+			[
+				"format",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git ad",
+				"Git: Add..."
+			],
+			[
+				"git merg",
+				"Git: Merge Branch"
+			],
+			[
+				"git ch",
+				"Git: Change Branch"
+			],
+			[
+				"git che",
+				"Git: Change Branch"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"syn mark",
+				"Table Editor: Set table syntax 'MultiMarkdown' for current view"
+			],
+			[
+				"syn mark gf",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"tab",
+				"Table Editor: Set table syntax 'MultiMarkdown' for current view"
+			],
+			[
+				"linter set",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"table",
+				"Table Editor: Set table syntax 'MultiMarkdown' for current view"
+			],
+			[
+				"syn pl",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"multi",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"ipy",
+				"Open IPython Notebook"
+			],
+			[
+				"syn res",
+				"Set Syntax: reStructuredText Improved"
+			],
+			[
+				"syn pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"syn json",
+				"Set Syntax: JSON"
+			],
+			[
+				"syn re",
+				"Set Syntax: reStructuredText Improved"
+			],
+			[
+				"ana for",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"syn sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"uniu",
+				"Permute Lines: Unique"
+			],
+			[
+				"dj url",
+				"Snippet: Django template url"
+			],
+			[
+				"dj va",
+				"Snippet: Django template variable"
+			],
+			[
+				"dj if",
+				"Snippet: Django template if statement"
+			],
+			[
+				"dj trans",
+				"Snippet: Django template blocktrans"
+			],
+			[
+				"dj var",
+				"Snippet: Django template variable"
+			],
+			[
+				"dj for",
+				"Snippet: Django template for loop"
+			],
+			[
+				"djan va",
+				"Snippet: Django template variable"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"syn per",
+				"Set Syntax: Perl"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"load",
+				"Snippet: Django template load template tag set"
+			],
+			[
+				"inclu",
+				"Snippet: Django template include"
+			],
+			[
+				"bloc",
+				"Snippet: Django template block"
+			],
+			[
+				"block",
+				"Snippet: Django template block"
+			],
+			[
+				"djan com",
+				"Snippet: Django template comment"
+			],
+			[
+				"djan if",
+				"Snippet: Django template if statement"
+			],
+			[
+				"blocktr",
+				"Snippet: Django template blocktrans"
+			],
+			[
+				"djan",
+				"Snippet: Django template if statement"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"csrf",
+				"Snippet: Django template csrf token"
+			],
+			[
+				"sni if",
+				"Snippet: Django template if statement"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"dj comm",
+				"Snippet: Django template comment"
+			],
+			[
+				"trans",
+				"Snippet: Django template blocktrans"
+			],
+			[
+				"csr",
+				"Snippet: Django template csrf token"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"djan url",
+				"Snippet: Django template url"
+			],
+			[
+				"django if",
+				"Snippet: Django template if statement"
+			],
+			[
+				"blo",
+				"Snippet: Django template block"
+			],
+			[
+				"ext",
+				"Snippet: extends"
+			],
+			[
+				"sni hml",
+				"Snippet: html"
+			],
+			[
+				"sni url",
+				"Snippet: Django template url"
+			],
+			[
+				"sni trans",
+				"Snippet: Django template blocktrans"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				" git add",
+				"Git: Add Current File"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"ana form",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"buil",
+				"Build With: Anaconda Python Builder"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"node",
+				"HTMLPrettify: Set `node` Path"
+			],
+			[
+				"sett",
+				"Preferences: Settings - User"
+			],
+			[
+				"git dif",
+				"Git: Diff Staged Files"
+			],
+			[
+				"syn rst",
+				"Set Syntax: reStructuredText Improved"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn",
+				"Set Syntax: Python"
+			],
+			[
+				"term",
+				"Terminal: Open"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"syn plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"sni main",
+				"Snippet: if __name__ == '__main__'"
+			],
+			[
+				"sni htm",
+				"Snippet: html"
+			],
+			[
+				"syn hmtl",
+				"Set Syntax: HTML"
+			],
+			[
+				"sni mai",
+				"Snippet: if __name__ == '__main__'"
+			],
+			[
+				"sni var",
+				"Snippet: context variable (var)"
+			],
+			[
+				"url",
+				"Snippet: url"
+			],
+			[
+				"tra",
+				"Snippet: trans"
+			],
+			[
+				"ur",
+				"Snippet: url"
+			],
+			[
+				"lo",
+				"Snippet: load"
+			],
+			[
+				"snip u",
+				"Snippet: url"
+			],
+			[
+				"snip",
+				"Snippet: trans"
+			],
+			[
+				"stati",
+				"Snippet: static"
+			],
+			[
+				"sni ",
+				"Snippet: if"
+			],
+			[
+				"loa",
+				"Snippet: load"
+			],
+			[
+				"html dj",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sni va",
+				"Snippet: context variable (var)"
+			],
+			[
+				"syn dj",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"setting",
+				"Preferences: Settings - User"
+			]
+		],
+		"width": 588.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/nils/Entwicklung/Source/damndaily"
+	],
+	"file_history":
+	[
+		"/home/nils/Entwicklung/Source/damndaily/subl/damndaily.sublime-project",
+		"/home/nils/Entwicklung/Semesterapparate/statistiken/scans.csv",
+		"/home/nils/Entwicklung/Source/damndaily/damndaily/factory.py",
+		"/home/nils/Entwicklung/Source/rcscripts/subl/rcscripts.sublime-project",
+		"/mnt/data/Entwicklung/Source/rcscripts/permissions/select.duplicate.permissions.sql",
+		"/mnt/data/Entwicklung/Source/rcscripts/permissions/select.undefined.permissions.by.user.sql",
+		"/mnt/data/Entwicklung/Source/rcscripts/permissions/permissions.py",
+		"/mnt/data/Entwicklung/Source/rcscripts/prog.py",
+		"/mnt/data/Entwicklung/Source/rcscripts/logging.conf",
+		"/mnt/data/Entwicklung/Source/rcscripts/__init__.py",
+		"/mnt/data/Entwicklung/Source/rcscripts/permissions/select.undefined.permissions.by.user.instance.sql",
+		"/mnt/data/Entwicklung/Source/rcscripts/permissions/select.duplicate.permissions.by.user.sql",
+		"/mnt/data/Entwicklung/Source/rcscripts/permissions/select.missing.permissions.by.user.sql",
+		"/run/user/1000/gvfs/sftp:host=staff.uni-due.de,user=hy0770/homes/hy0770/public_html/mail/index.php",
+		"/mnt/data/temp/Nur Text LuL-Dokumente.csv",
+		"/mnt/data/Downloads/DocumentServlet?id=43533&format=mods&XSL.Style=xml",
+		"/mnt/data/temp/duepublico",
+		"/mnt/data/temp/duepublico.locations",
+		"/mnt/data/DuEPublico/statistiken/awstats/awstats122016.miless.txt",
+		"/mnt/data/Entwicklung/Source/rcscripts/merge/merge_user.py",
+		"/home/nils/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/nils/.config/sublime-text-3/Packages/User/Markdown.sublime-settings",
+		"/home/nils/.config/sublime-text-3/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/home/nils/.config/sublime-text-3/Packages/MarkdownEditing/README.md",
+		"/home/nils/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/nils/.config/sublime-text-3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/home/nils/.config/sublime-text-3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/mnt/data/DuEPublico/statistiken/derivates.csv",
+		"/mnt/data/Entwicklung/Source/rcscripts/scannables/pdf.py",
+		"/mnt/data/Entwicklung/Source/rcscripts/db/db.py",
+		"/mnt/data/Entwicklung/Source/rcscripts/util.py",
+		"/home/nils/html/primo2imperia_v7/data.php",
+		"/mnt/data/Entwicklung/Source/rcscripts/participation_update_26.10.2015_11_05.txt",
+		"/mnt/data/temp/remove.permission.inexistent.instance.sql",
+		"/mnt/data/temp/dup.permission.removal.25.10.2016.sql",
+		"/mnt/data/sciebo/Semapp Statistiken/semapp.sql",
+		"/mnt/data/Entwicklung/Source/rcscripts/scannables/select.resource.containers.by.collection.sql",
+		"/mnt/data/Entwicklung/reserve-collections-home/solr-home/reservecollectionview/conf/data-config.xml",
+		"/home/nils/.m2/repository/com/googlecode/tapestry5-cayenne/tapestry5-cayenne-project/0.5-SNAPSHOT/tapestry5-cayenne-project-0.5.pom",
+		"/home/nils/Downloads/tapestry5-cayenne-server-0.5.pom",
+		"/mnt/data/Entwicklung/Source/WakeyWakey/.idea/modules.xml",
+		"/mnt/data/Entwicklung/Source/WakeyWakey/.gitignore",
+		"/mnt/data/temp/semapp_statistiken.rst",
+		"/home/nils/html/primo2imperia_v7/index.php",
+		"/mnt/data/Entwicklung/Source/rcscripts/resources/fix.py",
+		"/mnt/data/Entwicklung/Source/rcscripts/.gitignore",
+		"/mnt/data/Entwicklung/Source/rcscripts/statistics/select_resource_usage.py",
+		"/mnt/data/Entwicklung/Source/rcscripts/statistics/select.resource.usage.by.month.sql",
+		"/mnt/data/Entwicklung/Source/rcscripts/conf/config.py",
+		"/mnt/data/Entwicklung/Source/rcscripts/reservecollections/expiration.py",
+		"/mnt/data/Entwicklung/Source/rcscripts/search_access_user.py",
+		"/mnt/data/Entwicklung/Source/rcscripts/end_dup_participations.py",
+		"/mnt/data/Entwicklung/Source/rcscripts/statistics/select.scannable.access.log.by.interval.sql",
+		"/mnt/data/Entwicklung/Source/rcscripts/scannables/select.scannable.resources.by.collection.sql",
+		"/mnt/data/Entwicklung/Source/rcscripts/scannables/load.py",
+		"/mnt/data/Entwicklung/Source/rcscripts/statistics/select.resource.usage.sql",
+		"/mnt/data/Entwicklung/Source/rcscripts/resources/select.entry.resource.by.collection.sql",
+		"/mnt/data/Entwicklung/Source/rcscripts/resources/select.files.of.document.sql",
+		"/home/nils/.config/sublime-text-3/Packages/Anaconda/Default (Linux).sublime-keymap",
+		"/home/nils/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/nils/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/mnt/data/Entwicklung/Source/rcscripts/reservecollections/select.expiring.collections.by.docent.sql",
+		"/mnt/data/Entwicklung/Source/rcscripts/reservecollections/not_migrated.py",
+		"/home/nils/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/mnt/data/sciebo/Master_AI-SE/work/.git/COMMIT_EDITMSG_conflict-20160516-135505",
+		"/mnt/data/sciebo/Master_AI-SE/work/.git/COMMIT_EDITMSG",
+		"/mnt/data/Entwicklung/Source/rcscripts/resources/resource.py",
+		"/home/nils/dev/Source/PrimoRisExport/src/com/exlibris/primo/utils/EndNoteLocalProcess.java",
+		"/home/nils/dev/Source/PrimoRisExport/src/com/exlibris/primo/utils/SaveFileLocalProcess.java",
+		"/mnt/data/Hanno Studium/2_Master/Bereich_I/Formale Methoden des Software-Enginnering/Kapitel_1/Beispiel1/beispiel1.scala",
+		"/mnt/data/Entwicklung/Source/rcscripts/scannables/select.open.bookchapter.scanjobs.sql",
+		"/mnt/data/Entwicklung/Source/rcscripts/scannables/select.open.journalarticle.scanjobs.sql",
+		"/mnt/data/Entwicklung/Source/rcscripts/insert.mail.sql",
+		"/mnt/data/Entwicklung/Source/rcscripts/insert.mail.node.sql",
+		"/home/nils/.virtualenvs/rcscripts/lib/python3.4/os.py",
+		"/mnt/data/temp/download_2016-03-29_12-11-31/Arlo.und.Spot.2015.German.AC3.DL.1080p.BluRay.x264-FDHQ/DANKE!.txt",
+		"/mnt/data/Entwicklung/Source/rcscripts/files/fix_collection_4842",
+		"/mnt/data/Entwicklung/Source/rcscripts/scannables/__init__.py",
+		"/mnt/data/Entwicklung/Source/rcscripts/resources/select.all.files.sql",
+		"/mnt/data/Entwicklung/Source/rcscripts/reservecollections/select.expiring.collections.sql",
+		"/mnt/data/Entwicklung/Source/rcscripts/jinjatemplates/expiration.warning.msg.html.tmpl",
+		"/mnt/data/Entwicklung/Source/rcscripts/jinjatemplates/expiration.warning.msg.txt.tmpl",
+		"/mnt/data/Entwicklung/Source/rcscripts/subl/rcscripts.sublime-project",
+		"/home/nils/Project.xml",
+		"/home/nils/.IntelliJIdea15/config/codestyles/Default _1_.xml",
+		"/mnt/data/temp/code_formatter.xml",
+		"/home/nils/idea_java_formatter.xml",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/julklapp/admin.py",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/julklapp/templates/julklapp/imptable/edit_imptable_form.html",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/julklapp/templates/julklapp/base.html",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/julklapp/imptable.py",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/julklapp/templates/julklapp/imptable/edit.html",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/julklapp/templates/julklapp/imptable/create.html",
+		"/mnt/data/Entwicklung/Source/julklapp/java-webapp/src/main/resources/de/julklapp/web/pages/imptable/EditImpTable.tml",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/julklapp/static/julklapp/layout.css",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/julklapp/models.py",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/pyjulklapp/urls.py",
+		"/mnt/data/temp/ldap.sql",
+		"/mnt/data/Entwicklung/Source/julklapp/java-webapp/src/main/webapp/WEB-INF/app.properties",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/julklapp/templates/julklapp/imptable/view.html",
+		"/mnt/data/Entwicklung/Source/julklapp/java-webapp/src/main/java/de/julklapp/web/pages/imptable/EditImpTable.java",
+		"/mnt/data/Entwicklung/Source/julklapp/java-webapp/src/main/java/de/julklapp/web/components/TabList.java",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/julklapp/apps.py",
+		"/mnt/data/temp/filme.txt",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/pyjulklapp/settings.py",
+		"/run/user/1000/gvfs/sftp:host=staff.uni-due.de,user=hy0770/homes/hy0770/public_html/sf-kontrolle/index.php",
+		"/mnt/data/temp/tomcatlog/tomcat.log.3",
+		"/run/user/1000/gvfs/sftp:host=staff.uni-due.de,user=hy0770/homes/hy0770/public_html/sf-kontrolle/http.php",
+		"/mnt/data/Entwicklung/Tools/android-studio/Install-Linux-tar.txt",
+		"/home/nils/.IntelliJIdea15/system/log/idea.log",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/julklapp/views.py",
+		"/mnt/data/Entwicklung/Source/julklapp/java-webapp/src/main/resources/de/julklapp/web/pages/imptable/CreateImpTable.tml",
+		"/mnt/data/Entwicklung/Source/julklapp/java-webapp/src/main/java/de/julklapp/web/pages/imptable/CreateImpTable.java",
+		"/mnt/data/Entwicklung/Source/julklapp/java-webapp/src/main/java/de/julklapp/web/components/Paper.java",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/julklapp/comm.py",
+		"/media/nils/4b7d55ff-a89f-405d-8fcb-59a045157bff/windows_10_key.txt",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/julklapp/wishlist.py",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/julklapp/templates/julklapp/comm/view.html",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/julklapp/templates/julklapp/wishlist/edit.html",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/julklapp/templates/julklapp/wishlist/view.html",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/julklapp/templates/julklapp/index.html",
+		"/mnt/data/Entwicklung/Source/julklapp/java-webapp/src/main/java/de/julklapp/web/components/ImpTablePageLink.java",
+		"/mnt/data/Entwicklung/Source/julklapp/java-webapp/src/main/webapp/layout/layout.css",
+		"/mnt/data/Entwicklung/Source/julklapp/java-webapp/src/main/webapp/vendor/initializr/css/main.css",
+		"/mnt/data/Entwicklung/Source/julklapp/java-webapp/src/main/java/de/julklapp/web/components/Layout.java",
+		"/mnt/data/Entwicklung/Source/julklapp/java-webapp/src/main/resources/de/julklapp/web/pages/wishlist/EditWishList.tml",
+		"/mnt/data/Entwicklung/Source/julklapp/java-webapp/src/main/resources/de/julklapp/web/components/Layout.tml",
+		"/mnt/data/Entwicklung/Source/julklapp/pyjulklapp/julklapp/migrations/__init__.py"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"flaskr",
+			";",
+			"^\\s+",
+			"remove_inexistent",
+			"by.user.instance",
+			"\\s+$",
+			"\\ │.*",
+			"dups",
+			"^\\s{2}",
+			"\\s+$",
+			"^\\s?\\d+\\s{3}",
+			": ",
+			"Derivate-\\d+\\.zip",
+			"\\d+\\.zip",
+			"\\.zip",
+			"zip",
+			"\\.zip",
+			"zip",
+			"def ",
+			"---- |",
+			"select.undefined.per",
+			"undefined",
+			"select.undefined.permissions.by.user.instance.sql",
+			"amazon",
+			"userid",
+			"userids",
+			"799469",
+			", p[3]",
+			"p1.",
+			"p1",
+			"VALUES\\s\\(\\d+",
+			"477",
+			"PROJECT_DIR",
+			"\n            except PdfReadError as e:\n                logging.error('could not read page count from %s, cause: %s' %\n                              (pdf, e))",
+			"scannable_resource_ids",
+			"\t",
+			".query(",
+			"\n        if chapter_id:\n            db.update('update book_chapter set totalpages = %(pages)s'\n                      ' where id = %(chapter_id)s',\n                      params={\n                          'pages': num_pages,\n                          'chapter_id': chapter_id\n                      })",
+			"noop",
+			"scann",
+			"scannable_file_access_log",
+			"select_resource_usage",
+			"query",
+			"noop",
+			"spec",
+			"^\\s+private\\s\\w+",
+			"\\s+private\\s\\w+",
+			"\\s+@(.*)",
+			"random",
+			"ids",
+			"ftp",
+			"\\.ftp_",
+			"__update_mime",
+			"resourceid",
+			"insert.mail",
+			", job[3]",
+			"__log_i",
+			"matches",
+			"key",
+			"__get_file",
+			"^(.*)StringUtils.length",
+			"type=\"([A-Z]+)\"",
+			"^(.*)name=\"",
+			"ftp",
+			"bc",
+			"sjbc",
+			"resource.exists",
+			"^(.*):\\s",
+			"__settings",
+			"^(.*)CollectionWarningCronJobImpl\\s-",
+			", ",
+			"imp_forms",
+			"instance=",
+			"instance",
+			"participants",
+			"EditForm",
+			"forms",
+			"tr",
+			"^(.*)\\(\"",
+			", ",
+			"and",
+			"^([a-z.]+)(,)",
+			",",
+			"data-link-name",
+			"preventions",
+			"participations",
+			"mode",
+			"AVI",
+			"((.*)\\.[a-z]{3,4})$",
+			"((.*)\\.[a-zA-Z]{3,4})$",
+			"((.*)\\.[a-zA-Z]{3,4})",
+			"(.*)\\.[a-zA-Z]{3,4}",
+			"(.*)-\\s{1}\\((.*)",
+			"private",
+			",",
+			"EditForm",
+			"admin_mail",
+			"name",
+			"4795",
+			"4765",
+			"http://",
+			"create.imp.table",
+			"admin_name",
+			"-",
+			"t",
+			"models",
+			" ",
+			"edit.imp.table'",
+			"view.imp.table",
+			"edit.imp.table",
+			"create.imp.table",
+			"message:",
+			"deleted",
+			"',\n",
+			"(.*)(\\d+)\\s",
+			"__read_deplicate_permissions_sql",
+			"Doktor, Wolfgang",
+			"\\d+",
+			",\\s'(.*)(, ')",
+			"\\d+",
+			"^\\((.*)",
+			"(.*)', '",
+			"^\\((.*)",
+			"(.*) - INFO - ",
+			"51448",
+			"24576",
+			"prolong/4900",
+			"4900"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"    ",
+			"ü",
+			"ö",
+			"ä",
+			"&szlig;",
+			"&uuml;",
+			"&auml;",
+			"&ouml;",
+			"&auml;",
+			"&ouml;",
+			"\"",
+			"&szlig;",
+			"&uuml;",
+			"&ouml;",
+			"&auml;",
+			"{{ ",
+			"Bier",
+			"&uuml;",
+			"&szlig;",
+			"&uuml;",
+			"&szlig;",
+			"&ouml;",
+			"&auml;",
+			"&uuml;",
+			"@ |",
+			"| @",
+			":",
+			" | ",
+			"..",
+			"",
+			";",
+			" = \"",
+			" = ",
+			"",
+			"ID=\"0",
+			"true",
+			"",
+			"\"></a></td></tr>",
+			"<tr><td><a href=\"",
+			"de.unidue.ub",
+			"    "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/nils/Entwicklung/Source/damndaily/damndaily/schema/sqlite.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/nils/Entwicklung/Source/damndaily/damndaily/damndaily.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1371,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1359,
+								1359
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 37.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/nils/Entwicklung/Source/damndaily/damndaily/blueprints/damndaily.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 832,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140,
+								140
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "python"
+							},
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/nils/Entwicklung/Source/damndaily/requirements.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 1,
+								"count": 0,
+								"modified": false,
+								"selection": true,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.anaconda_documentation":
+	{
+		"height": 221.0
+	},
+	"output.exec":
+	{
+		"height": 282.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 120.0
+	},
+	"pinned_build_system": "",
+	"project": "damndaily.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"damn",
+				"damndaily.py"
+			],
+			[
+				"prop",
+				"prog.py"
+			],
+			[
+				"pro",
+				"prog.py"
+			],
+			[
+				"merge",
+				"merge/merge_user.py"
+			],
+			[
+				"db",
+				"db/db.py"
+			],
+			[
+				"fix",
+				"resources/fix.py"
+			],
+			[
+				"scannables",
+				"scannables/load.py"
+			],
+			[
+				"insert",
+				"insert.mail.sql"
+			],
+			[
+				"util",
+				"util.py"
+			],
+			[
+				"expira",
+				"reservecollections/expiration.py"
+			],
+			[
+				"edit",
+				"pyjulklapp/julklapp/templates/julklapp/imptable/edit.html"
+			],
+			[
+				"adm",
+				"pyjulklapp/julklapp/admin.py"
+			],
+			[
+				"models",
+				"pyjulklapp/julklapp/models.py"
+			],
+			[
+				"imptable.py",
+				"pyjulklapp/julklapp/imptable.py"
+			],
+			[
+				"view",
+				"pyjulklapp/julklapp/templates/julklapp/imptable/view.html"
+			],
+			[
+				"url",
+				"pyjulklapp/pyjulklapp/urls.py"
+			],
+			[
+				"model",
+				"pyjulklapp/julklapp/models.py"
+			],
+			[
+				"create",
+				"pyjulklapp/julklapp/templates/julklapp/imptable/create.html"
+			],
+			[
+				"app",
+				"java-webapp/src/main/webapp/WEB-INF/app.properties"
+			],
+			[
+				"base",
+				"pyjulklapp/julklapp/templates/julklapp/base.html"
+			],
+			[
+				"editi",
+				"java-webapp/src/main/java/de/julklapp/web/pages/imptable/EditImpTable.java"
+			],
+			[
+				"editim",
+				"java-webapp/src/main/java/de/julklapp/web/pages/imptable/EditImpTable.java"
+			],
+			[
+				".css",
+				"pyjulklapp/julklapp/static/julklapp/layout.css"
+			],
+			[
+				"bas",
+				"pyjulklapp/julklapp/templates/julklapp/base.html"
+			],
+			[
+				"cre",
+				"pyjulklapp/julklapp/templates/julklapp/imptable/create.html"
+			],
+			[
+				"tablist",
+				"java-webapp/src/main/java/de/julklapp/web/components/TabList.java"
+			],
+			[
+				"se",
+				"pyjulklapp/pyjulklapp/settings.py"
+			],
+			[
+				"sett",
+				"pyjulklapp/pyjulklapp/settings.py"
+			],
+			[
+				"lay",
+				"pyjulklapp/julklapp/static/julklapp/layout.css"
+			],
+			[
+				"urls",
+				"pyjulklapp/pyjulklapp/urls.py"
+			],
+			[
+				"paper.",
+				"java-webapp/src/main/java/de/julklapp/web/components/Paper.java"
+			],
+			[
+				"createim",
+				"java-webapp/src/main/java/de/julklapp/web/pages/imptable/CreateImpTable.java"
+			],
+			[
+				"imptablepa",
+				"java-webapp/src/main/java/de/julklapp/web/components/ImpTablePageLink.java"
+			],
+			[
+				"main",
+				"java-webapp/src/main/webapp/vendor/initializr/css/main.css"
+			],
+			[
+				"layout.ja",
+				"java-webapp/src/main/java/de/julklapp/web/components/Layout.java"
+			],
+			[
+				"00",
+				"pyjulklapp/julklapp/migrations/0001_initial.py"
+			],
+			[
+				"uti",
+				"util.py"
+			],
+			[
+				"ut",
+				"util.py"
+			],
+			[
+				"per",
+				"permissions/permissions.py"
+			],
+			[
+				"select_resource_usage",
+				"statistics/select_resource_usage.py"
+			],
+			[
+				"form",
+				"project/market/forms.py"
+			],
+			[
+				"mode",
+				"project/market/models.py"
+			],
+			[
+				"req",
+				"requirements.md"
+			],
+			[
+				"sty",
+				"project/market/static/market/less/styles.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Entwicklung/Source/miless-scripts/miless-scripts.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 344.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
