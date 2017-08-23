@@ -1,12 +1,17 @@
 from django.db import models
 from django.contrib.auth.models import User
+from datetime import datetime
 
 
 class DamnDaily(models.Model):
     name = models.CharField(max_length=512)
-    created = models.DateTimeField()
-    deleted = models.DateTimeField(null=True)
+    created = models.DateTimeField(default=datetime.today())
+    deleted = models.DateTimeField(null=True, blank=True)
     external_id = models.CharField(max_length=24)
+
+    def __str__(self):
+        return '<DamnDaily name={:s}' \
+            ' created={:%d.%m.%Y %H:%M}>'.format(self.name, self.created)
 
 
 class Today(models.Model):
