@@ -6,3 +6,9 @@ __pycache__/
 
 # vim swap files
 *.swp
+
+# sublime text
+.sublime*
+
+# jupyter notebooks
+.ipynb_checkpoints/

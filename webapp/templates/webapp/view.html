@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Damn daily</title>
+</head>
+<body>
+
+<h3>{{ damndaily.name }}</h3>
+{% if today %}
+    <h4>{{ today.day}} {{ today.time }}</h4>
+{% endif %}
+<ul>
+{% for participation in participations %}
+    <li>{{ participation.user }}</li>
+{% endfor %}
+</ul>
+
+</body>
+</html>
