@@ -14,10 +14,12 @@ def random_string(length=8, letters=True, uppercase=True, lowercase=True):
 
 def create_damndaily_id(length=6):
         _id = None
-        daily = 1
 
-        while daily is not None:
-            _id = random_string(length=length)
-            daily = DamnDaily.objects.filter(external_id=_id)
+        try:
+            while True:
+                _id = random_string(length=length)
+                DamnDaily.objects.get(external_id=_id)
+        except DamnDaily.DoesNotExist:
+            print('found free damn daily id')
 
         return _id

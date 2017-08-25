@@ -8,7 +8,8 @@ __pycache__/
 *.swp
 
 # sublime text
-.sublime*
+*.sublime-workspace
 
 # jupyter notebooks
+*.ipnb
 .ipynb_checkpoints/

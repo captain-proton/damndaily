@@ -19,14 +19,16 @@ class Today(models.Model):
     day = models.DateField(null=True, default=date.today)
     time = models.TimeField(null=True, blank=True)
     location = models.CharField(max_length=512)
-    damn_daily = models.ForeignKey('DamnDaily', on_delete=models.CASCADE)
+    damndaily = models.ForeignKey('DamnDaily', on_delete=models.CASCADE)
 
     def __str__(self):
-        return '<Today daily={0:s}' \
-            ' day={1:%d.%m.%Y}' \
-            ' time={2:%H:%M}>'.format(str(self.damn_daily.name),
-                                      self.day,
-                                      self.time)
+        fmt = '<Today daily={0:s}  day={1:%d.%m.%Y}'
+        fmt_obj = [self.damndaily.name, self.day]
+        if self.time:
+            fmt = ''.join([fmt, ' time={2:%H:%M}'])
+            fmt_obj.append(self.time)
+        fmt = ''.join([fmt, '>'])
+        return fmt.format(*fmt_obj)
 
 
 class Participation(models.Model):
@@ -40,6 +42,7 @@ class Participation(models.Model):
 
 class Message(models.Model):
     value = models.TextField()
+    send = models.DateTimeField(auto_now_add=True)
     today = models.OneToOneField('Today',
                                  on_delete=models.CASCADE,
                                  primary_key=True)
