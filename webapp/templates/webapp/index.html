@@ -1,0 +1,59 @@
+{% extends "webapp/layout.html" %}
+{% load i18n %}
+
+{% block content %}
+<section>
+    <header>
+        <h3>{{ damndaily.name }}</h3>
+        {% if today %}
+        <h4>{{ today.day}}
+        {% if today.time %}
+            {{ today.time }}
+        {% endif %}</h4>
+        {% endif %}
+        <h4>Teilnehmer</h4>
+    </header>
+    <ul>
+        {% for participation in participations %}
+        <li>{{ participation.user }}</li>
+        {% endfor %}
+    </ul>
+</section>
+<section>
+    <form action="{% url 'webapp:update_today' today.id %}" method="post">
+        {% csrf_token %}
+        <div>
+            <label for="day">Am</label>
+            <input type="text" readonly="readonly" value="{{ today.day }}">
+        </div>
+        <div>
+            <label for="day">Um</label>
+            <input type="time" value="{{ today.time }}" name="time">
+        </div>
+        <div>
+            <label for="location">Wo</label>
+            <input type="text" value="{{ today.location }}" name="location" maxlength="512">
+        </div>
+        <div>
+            <input type="submit" value="Speichern">
+        </div>
+    </form>
+</section>
+
+{% if messages %}
+<section>
+    <ul>
+        {% for msg in messages %}
+            <li>
+                <div>
+                    <aside>{{ msg.author }}</aside>
+                    <p>{{ msg.value }}</p>
+                    <aside>{{ msg.send }}</aside>
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}
+
+{% endblock content %}

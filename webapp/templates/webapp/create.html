@@ -1,0 +1,19 @@
+{% extends "webapp/layout.html" %}
+{% load i18n %}
+
+{% block content %}
+<section>
+    <header>
+        <h3>{% trans 'New Damn daily' %}</h3>
+    </header>
+    <form action="{% url 'webapp:save_damn_daily' %}" method="post">
+        {% csrf_token %}
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" required="required">
+        </div>
+    </form>
+</section>
+
+
+{% endblock content %}
