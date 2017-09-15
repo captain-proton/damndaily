@@ -11,5 +11,5 @@ __pycache__/
 *.sublime-workspace
 
 # jupyter notebooks
-*.ipnb
+*.ipynb
 .ipynb_checkpoints/
