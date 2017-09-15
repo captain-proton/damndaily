@@ -47,3 +47,19 @@ class Message(models.Model):
                                  on_delete=models.CASCADE,
                                  primary_key=True)
     author = models.OneToOneField(User)
+
+
+class GeneratedUsername(models.Model):
+    """See https://github.com/mattconsto/fantasy-names for generation
+    """
+    username = models.CharField(max_length=128, unique=True)
+    group = models.CharField(max_length=64)
+    individual = models.CharField(max_length=64)
+    gender = models.SmallIntegerField()
+
+    def __str__(self):
+        fmt = '<GeneratedUsername username={0.username}' \
+            ' group={0.group}' \
+            ' individual={0.individual}' \
+            ' gender={0.gender}'
+        return fmt.format(self)
