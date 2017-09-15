@@ -1,0 +1,48 @@
+{% extends "webapp/layout.html" %}
+{% load i18n %}
+
+{% block content %}
+<section>
+    <header>
+        <h3>{% trans 'Login' %}</h3>
+    </header>
+    {% if form.errors %}
+    <p>{% blocktrans %}Your username and password didn't match. Please try again.{% endblocktrans %}</p>
+    {% endif %}
+
+    {% if next %}
+        {% if user.is_authenticated %}
+        <p>{% blocktrans %}
+            Your account doesn't have access to this page. To proceed,
+        please login with an account that has access.
+        {% endblocktrans %}</p>
+        {% else %}
+        <p>{% blocktrans %}
+            Please login to see this page.
+        {% endblocktrans %}</p>
+        {% endif %}
+    {% endif %}
+
+    <form method="post" action="{% url 'webapp:login' %}">
+        {% csrf_token %}
+        <div>
+            <label for="name">{{ form.username.label_tag }}</label>
+            {{ form.username }}
+        </div>
+        <div>
+            <label for="name">{{ form.password.label_tag }}</label>
+            {{ form.password }}
+        </div>
+
+    <input type="submit" value="{% trans 'Login' %}" />
+    <input type="hidden" name="next" value="{{ next }}" />
+    </form>
+
+    <p>
+        <a href="{% url 'webapp:reset_password' %}">{% blocktrans %}Lost password?{% endblocktrans %}</a>
+        <a href="{% url 'webapp:register' %}">{% trans 'Register' %}</a>
+    </p>
+</section>
+
+
+{% endblock content %}

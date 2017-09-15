@@ -18,24 +18,25 @@
         <li>{{ participation.user }}</li>
         {% endfor %}
     </ul>
+    <a href="{% url 'webapp:partake' damndaily.external_id %}">{% trans 'Contribute this link to your folks' %}</a>
 </section>
 <section>
     <form action="{% url 'webapp:update_today' today.id %}" method="post">
         {% csrf_token %}
         <div>
-            <label for="day">Am</label>
+            <label for="day">{% trans 'Day' %}</label>
             <input type="text" readonly="readonly" value="{{ today.day }}">
         </div>
         <div>
-            <label for="day">Um</label>
+            <label for="day">{% trans 'At' %}</label>
             <input type="time" value="{{ today.time }}" name="time">
         </div>
         <div>
-            <label for="location">Wo</label>
+            <label for="location">{% trans 'Where' %}</label>
             <input type="text" value="{{ today.location }}" name="location" maxlength="512">
         </div>
         <div>
-            <input type="submit" value="Speichern">
+            <input type="submit" value="{% trans 'Save' %}">
         </div>
     </form>
 </section>

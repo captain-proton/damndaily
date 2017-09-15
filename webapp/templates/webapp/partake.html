@@ -1,0 +1,26 @@
+{% extends "webapp/layout.html" %}
+{% load i18n %}
+
+{% block content %}
+<section>
+    <header>
+        <h3>{% trans 'Partake' %}</h3>
+    </header>
+    <form action="{% url 'webapp:save_partake' %}" method="post">
+        {% csrf_token %}
+        <div>
+            <label for="damndaily">Damn daily</label>
+            <input type="text" name="damndailyid" disabled="disabled" value="{{ damndailyid }}">
+        </div>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="username" required="required" value="{{ generated_username }}">
+        </div>
+        <div>
+            <input type="submit" value="{% trans 'Save' %}">
+        </div>
+    </form>
+</section>
+
+
+{% endblock content %}

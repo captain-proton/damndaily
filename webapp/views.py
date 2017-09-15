@@ -1,6 +1,8 @@
 from django.shortcuts import render, get_object_or_404, HttpResponse
 from django.http import HttpResponseRedirect
 from django.urls import reverse
+from django.utils.translation import ugettext as _
+from django.contrib.auth.decorators import login_required
 from datetime import date
 from .models import DamnDaily, Today, Participation, Message
 from . import services
@@ -13,6 +15,15 @@ def index(request):
 
 def create(request):
     return render(request, 'webapp/create.html')
+
+
+@login_required
+def partake(request, damndailyid):
+    return render(request, 'webapp/create.html')
+
+
+def save_partake(request, damndailyid, username):
+    return HttpResponse('partake damn daily id: %s' % (damndailyid,))
 
 
 def save_damn_daily(request):
@@ -57,7 +68,3 @@ def update_today(request, todayid):
     today.save()
     return HttpResponseRedirect(reverse('webapp:view',
                                         args=(today.damndaily.external_id,)))
-
-
-def partake(request, damndailyid):
-    return HttpResponse('partake damn daily id: %s' % (damndailyid,))
