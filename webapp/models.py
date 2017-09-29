@@ -15,6 +15,19 @@ class DamnDaily(models.Model):
         return '<DamnDaily name={:s}>'.format(self.name)
 
 
+class Subscription(models.Model):
+    start = models.DateTimeField(default=timezone.now)
+    end = models.DateTimeField(null=True, blank=True)
+    damndaily = models.ForeignKey('DamnDaily', on_delete=models.CASCADE)
+    user = models.ForeignKey(User)
+
+    def __str__(self):
+        fmt = '<Subscription daily={0:s}  user={1:s}'
+        fmt_obj = [self.damndaily.name, self.user.username]
+        fmt = ''.join([fmt, '>'])
+        return fmt.format(*fmt_obj)
+
+
 class Today(models.Model):
     day = models.DateField(null=True, default=date.today)
     time = models.TimeField(null=True, blank=True)

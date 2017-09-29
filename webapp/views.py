@@ -1,7 +1,6 @@
 from django.shortcuts import render, get_object_or_404, HttpResponse
 from django.http import HttpResponseRedirect
 from django.urls import reverse
-from django.utils.translation import ugettext as _
 from django.contrib.auth.decorators import login_required
 from datetime import date
 from .models import DamnDaily, Today, Participation, Message
@@ -13,6 +12,7 @@ def index(request):
     return HttpResponse('hello damn daily')
 
 
+@login_required
 def create(request):
     return render(request, 'webapp/create.html')
 
