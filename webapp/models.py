@@ -22,8 +22,8 @@ class Subscription(models.Model):
     user = models.ForeignKey(User)
 
     def __str__(self):
-        fmt = '<Subscription daily={0:s}  user={1:s}'
-        fmt_obj = [self.damndaily.name, self.user.username]
+        fmt = '<Subscription daily={0:s}  user={1:s} active={2:b}'
+        fmt_obj = [self.damndaily.name, self.user.username, not self.end]
         fmt = ''.join([fmt, '>'])
         return fmt.format(*fmt_obj)
 

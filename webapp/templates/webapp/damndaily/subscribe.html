@@ -4,9 +4,9 @@
 {% block content %}
 <section>
     <header>
-        <h3>{% trans 'Partake' %}</h3>
+        <h3>{% trans 'Subscribe' %}</h3>
     </header>
-    <form action="{% url 'webapp:save_partake' %}" method="post">
+    <form action="{% url 'webapp:save_subscription' %}" method="post">
         {% csrf_token %}
         <div>
             <label for="damndaily">Damn daily</label>

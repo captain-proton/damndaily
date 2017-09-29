@@ -18,7 +18,7 @@
         <li>{{ participation.user }}</li>
         {% endfor %}
     </ul>
-    <a href="{% url 'webapp:partake' damndaily.external_id %}">{% trans 'Contribute this link to your folks' %}</a>
+    <a href="{% url 'webapp:subscribe' damndaily.external_id %}">{% trans 'Contribute this link to your folks' %}</a>
 </section>
 <section>
     <form action="{% url 'webapp:update_today' today.id %}" method="post">
@@ -39,6 +39,12 @@
             <input type="submit" value="{% trans 'Save' %}">
         </div>
     </form>
+</section>
+
+<section>
+    <a href="{% url "webapp:participate" today.id %}">{% trans 'Participate' %}</a>
+    <a href="{% url "webapp:reject" today.id %}">{% trans 'Reject' %}</a>
+    <a href="{% url "webapp:unsubscribe" damndaily.id %}">{% trans 'Unsubscribe' %}</a>
 </section>
 
 {% if messages %}

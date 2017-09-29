@@ -1,0 +1,8 @@
+{% extends "webapp/layout.html" %}
+{% load i18n %}
+
+{% block content %}
+Hallo Welt
+
+<a href="{% url "webapp:create" %}">Erstelle ein neues verdammtes Tägliches</a>
+{% endblock content %}

@@ -2,28 +2,37 @@ from django.shortcuts import render, get_object_or_404, HttpResponse
 from django.http import HttpResponseRedirect
 from django.urls import reverse
 from django.contrib.auth.decorators import login_required
+from django.views import generic
 from datetime import date
 from .models import DamnDaily, Today, Participation, Message
 from . import services
 
 
-# Create your views here.
+class TodayDetailView(generic.DetailView):
+    model = Today
+
+
 def index(request):
-    return HttpResponse('hello damn daily')
+    return render(request, 'webapp/welcome.html')
 
 
 @login_required
 def create(request):
-    return render(request, 'webapp/create.html')
+    return render(request, 'webapp/damndaily/create.html')
 
 
 @login_required
-def partake(request, damndailyid):
-    return render(request, 'webapp/create.html')
+def subscribe(request, damndailyid):
+    return render(request, 'webapp/damndaily/subscribe.html')
 
 
-def save_partake(request, damndailyid, username):
-    return HttpResponse('partake damn daily id: %s' % (damndailyid,))
+@login_required
+def unsubscribe(request, damndailyid):
+    pass
+
+
+def save_subscription(request, damndailyid, username):
+    return HttpResponse('subscribe damn daily id: %s' % (damndailyid,))
 
 
 def save_damn_daily(request):
@@ -58,7 +67,7 @@ def view(request, damndailyid):
         'today': today,
         'messages': messages
     }
-    return render(request, 'webapp/index.html', context)
+    return render(request, 'webapp/damndaily/index.html', context)
 
 
 def update_today(request, todayid):
@@ -68,3 +77,15 @@ def update_today(request, todayid):
     today.save()
     return HttpResponseRedirect(reverse('webapp:view',
                                         args=(today.damndaily.external_id,)))
+
+
+def participate(request, todayid):
+    today = get_object_or_404(Today, pk=todayid)
+    participation = Participation(today=today, user=request.user)
+    participation.save()
+    return HttpResponseRedirect(reverse('webapp:view',
+                                        args=(today.damndaily.external_id,)))
+
+
+def reject(request, todayid):
+    pass
